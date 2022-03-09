@@ -1,4 +1,4 @@
-import os, discord, random, pdb, asyncio
+import os, discord, pdb
 # create breakpoints for debugging with pdb
     # use pdb.set_trace() to stop at certain line
     # c n s q: https://poweruser.blog/setting-a-breakpoint-in-python-438e23fe6b28
@@ -8,7 +8,7 @@ from discord.ext import commands
 
 # removes runtime error but makes ctrl-c slow af
 # https://stackoverflow.com/questions/45600579/asyncio-event-loop-is-closed-when-getting-loop
-# asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+# import asyncio, asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 # env file with bot token and guild id
 load_dotenv()
