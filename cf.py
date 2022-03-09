@@ -1,4 +1,4 @@
-import os, discord, random, pdb # pdb.set_trace()
+import os, discord, random, pdb
 from discord.ext import commands
 from dotenv import load_dotenv
 

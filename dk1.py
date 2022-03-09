@@ -1,4 +1,4 @@
-import os, discord, random, pdb # pdb.set_trace()
+import os, discord, random, pdb
 from discord.ext import commands
 from dotenv import load_dotenv
 
@@ -12,7 +12,7 @@ async def duoking1(ctx):
         "inori",
         "fatorix",
         "krypt",
-        "rezz", # "rep would be ruined if picture seen irl"
+        "rezz",
         "inspiration",
         "triple healing",
         "victim complex",
