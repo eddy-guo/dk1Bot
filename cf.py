@@ -16,8 +16,8 @@ async def coinflip(ctx, input):
         await ctx.send(response)
         return
     if input == correct:
-        response = "***The coin landed on " + correct + ". Congratulations" + "<@" + str(ctx.message.author.id) + ">, you win!***"
+        response = f"***The coin landed on {correct}. Congratulations" + "<@" + str(ctx.message.author.id) + ">, you win!***"
         await ctx.send(response)
     else:
-        response = "***The coin landed on " + correct + ". Better luck next time, " + "<@" + str(ctx.message.author.id) + ">.***"
+        response = "***The coin landed on {correct}. Better luck next time, " + "<@" + str(ctx.message.author.id) + ">.***"
         await ctx.send(response)
